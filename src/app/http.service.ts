@@ -9,4 +9,8 @@ export class HttpService {
   getNames() {
     return this.http.get('assets/names.json');
   }
+
+  getConfig() {
+    return this.http.get('assets/config.json');
+  }
 }

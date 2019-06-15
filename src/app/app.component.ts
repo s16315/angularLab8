@@ -16,5 +16,9 @@ export class AppComponent implements OnInit {
     this.service.getNames().subscribe(
       response => console.log()
     );
+    this.service.getConfig().subscribe(
+      response => console.log()
+    );
+
   }
 }
